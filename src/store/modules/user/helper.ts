@@ -5,7 +5,6 @@ const LOCAL_NAME = 'userStorage'
 export interface UserInfo {
   avatar: string
   name: string
-  description: string
 }
 
 export interface UserState {
@@ -15,9 +14,8 @@ export interface UserState {
 export function defaultSetting(): UserState {
   return {
     userInfo: {
-      avatar: 'https://raw.githubusercontent.com/Chanzhaoyu/chatgpt-web/main/src/assets/avatar.jpg',
-      name: 'ChenZhaoYu',
-      description: 'Star on <a href="https://github.com/Chanzhaoyu/chatgpt-bot" class="text-blue-500" target="_blank" >Github</a>',
+      avatar: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTJGQpc1H5m1dt2a5iawGc8Ln4Ud3238Hj31SxcEGdJYRMgUgTrI8KQbL6tJehtRNefAqfjc2Miciblpg/132',
+      name: 'LiHui'
     },
   }
 }
