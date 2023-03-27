@@ -29,12 +29,6 @@ const userInfo = computed(() => userStore.userInfo)
       <h2 class="overflow-hidden font-bold text-md text-ellipsis whitespace-nowrap">
         {{ userInfo.name ?? 'LiHui' }}
       </h2>
-      <p class="overflow-hidden text-xs text-gray-500 text-ellipsis whitespace-nowrap">
-        <span
-          v-if="isString(userInfo.description) && userInfo.description !== ''"
-          v-html="userInfo.description"
-        />
-      </p>
     </div>
   </div>
 </template>
