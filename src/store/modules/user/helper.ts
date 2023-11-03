@@ -14,7 +14,7 @@ export interface UserState {
 export function defaultSetting(): UserState {
   return {
     userInfo: {
-      avatar: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTJGQpc1H5m1dt2a5iawGc8Ln4Ud3238Hj31SxcEGdJYRMgUgTrI8KQbL6tJehtRNefAqfjc2Miciblpg/132',
+      avatar: 'https://share.ilihui.top/public/wx_avatar.jpg',
       name: 'LiHui'
     },
   }
